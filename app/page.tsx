@@ -20,7 +20,7 @@ export default function Home() {
 
         <section>
           <h2 className="text-3xl font-bold mb-8">
-            Projects test
+            Projects 
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
