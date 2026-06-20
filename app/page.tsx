@@ -19,116 +19,80 @@ export default function Home() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-8">
-            Projects 
-          </h2>
+  <h2 className="text-3xl font-bold mb-8">
+    Projects 🚀
+  </h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
+  <div className="grid md:grid-cols-2 gap-6">
 
-            <div
-  onClick={() => {
-  window.open(
-    "https://wordcountertool-9j0lw6uc6-divi2.vercel.app",
-    "_blank",
-    "noopener,noreferrer"
-  );
-}}
-              className="
-                block
-                bg-white
-                p-6
-                rounded-2xl
-                border
-                border-stone-200
-                transition-all
-                duration-300
-                hover:shadow-xl
-                hover:-translate-y-2
-                hover:scale-[1.02]
-                hover:border-blue-400
-                cursor-pointer
-              "
-          >
-              <h3 className="text-2xl font-semibold">
-                Text Metrics
-              </h3>
+    {/* Text Metrics */}
+    <a
+      href="https://wordcountertool-9j0lw6uc6-divi2.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        block
+        bg-white
+        p-6
+        rounded-2xl
+        border
+        border-stone-200
+        transition-all
+        duration-300
+        hover:shadow-xl
+        hover:-translate-y-2
+        hover:scale-[1.02]
+        hover:border-blue-400
+      "
+    >
+      <h3 className="text-2xl font-semibold">
+        Text Metrics
+      </h3>
 
-              <p className="mt-3 text-stone-600">
-                A clean online tool for counting words and characters.
-              </p>
+      <p className="mt-3 text-stone-600">
+        A clean online tool for counting words and characters.
+      </p>
 
-              <div className="mt-4 flex gap-4">
-                <a
-                  href="https://wordcountertool-9j0lw6uc6-divi2.vercel.app"
-                  target="_blank"
-                  className="underline"
-                >
-                  Live Demo
-                </a>
+      <p className="mt-4 text-blue-600 font-medium">
+        Click card to open live demo →
+      </p>
+    </a>
 
-                <a
-                  href="https://github.com/divyanshi80405/word-counter-tool"
-                  target="_blank"
-                  className="underline"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
+    {/* GitHub Profile Finder */}
+    <a
+      href="https://githubprofilefinder-lf69yt5b6-divi2.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        block
+        bg-white
+        p-6
+        rounded-2xl
+        border
+        border-stone-200
+        transition-all
+        duration-300
+        hover:shadow-xl
+        hover:-translate-y-2
+        hover:scale-[1.02]
+        hover:border-blue-400
+      "
+    >
+      <h3 className="text-2xl font-semibold">
+        GitHub Profile Finder
+      </h3>
 
-            <div
-              onClick={() => {
-  window.open(
-    "https://githubprofilefinder-lf69yt5b6-divi2.vercel.app",
-    "_blank",
-    "noopener,noreferrer"
-  );
-}}
-              className="
-                block
-                bg-white
-                p-6
-                rounded-2xl
-                border
-                border-stone-200
-                transition-all
-                duration-300
-                hover:shadow-xl
-                hover:-translate-y-2
-                hover:scale-[1.02]
-                hover:border-blue-400
-                cursor-pointer
-              "
-            >
-              <h3 className="text-2xl font-semibold">
-                GitHub Profile Finder
-              </h3>
+      <p className="mt-3 text-stone-600">
+        Search GitHub users and view repositories and profile information.
+      </p>
 
-              <p className="mt-3 text-stone-600">
-                Search GitHub users and view repositories and profile information.
-              </p>
+      <p className="mt-4 text-blue-600 font-medium">
+        Click card to open live demo →
+      </p>
+    </a>
 
-              <div className="mt-4 flex gap-4">
-                <a
-                  href="https://githubprofilefinder-lf69yt5b6-divi2.vercel.app"
-                  target="_blank"
-                  className="underline"
-                >
-                  Live Demo
-                </a>
-
-                <a
-                  href="https://github.com/divyanshi80405/GitHub-Profile-Finder"
-                  target="_blank"
-                  className="underline"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </section>
+  </div>
+</section>
 
         <section className="mt-20">
           <h2 className="text-3xl font-bold mb-4">
