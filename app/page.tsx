@@ -27,12 +27,12 @@ export default function Home() {
 
             <div
   onClick={() => {
-    alert("Card clicked!");
-    window.open(
-      "https://githubprofilefinder-lf69yt5b6-divi2.vercel.app",
-      "_blank"
-    );
-  }}
+  window.open(
+    "https://wordcountertool-9j0lw6uc6-divi2.vercel.app",
+    "_blank",
+    "noopener,noreferrer"
+  );
+}}
               className="
                 block
                 bg-white
@@ -77,12 +77,13 @@ export default function Home() {
             </div>
 
             <div
-              onClick={() =>
-                window.open(
-                  "https://githubprofilefinder-lf69yt5b6-divi2.vercel.app",
-                  "_blank"
-                )
-              }
+              onClick={() => {
+  window.open(
+    "https://githubprofilefinder-lf69yt5b6-divi2.vercel.app",
+    "_blank",
+    "noopener,noreferrer"
+  );
+}}
               className="
                 block
                 bg-white
